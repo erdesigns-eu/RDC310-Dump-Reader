@@ -3,9 +3,9 @@
 uses
   Vcl.Forms,
   untMain in 'untMain.pas' {frmMain},
-  Radio.Dump.RCD310 in '..\Dump\Radio.Dump.RCD310.pas',
   Vcl.Themes,
-  Vcl.Styles;
+  Vcl.Styles,
+  Radio.Dump.RCD310 in 'Radio.Dump.RCD310.pas';
 
 {$R *.res}
 
