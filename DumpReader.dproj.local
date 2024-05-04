@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2024/04/11 18:09:22.000.330,=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit30.pas</Transaction>
+    <Transaction>2024/05/04 15:37:06.488,=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit31.pas</Transaction>
+    <Transaction>2024/05/04 15:37:34.642,=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit32.pas</Transaction>
+    <Transaction>2024/05/04 15:39:27.012,C:\Users\ProDesk\Desktop\Delphi Radio Calculators\Dump\Radio.Dump.RCD310.pas=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit32.pas</Transaction>
+    <Transaction>2024/05/04 16:05:51.508,C:\Users\ProDesk\Desktop\Delphi Radio Calculators\VW SKODA RCD310\untMain.pas=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit31.pas</Transaction>
+    <Transaction>2024/05/04 16:05:51.508,C:\Users\ProDesk\Desktop\Delphi Radio Calculators\VW SKODA RCD310\untMain.dfm=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Unit31.dfm</Transaction>
+    <Transaction>2024/05/04 16:05:59.358,C:\Users\ProDesk\Desktop\Delphi Radio Calculators\VW SKODA RCD310\Calculator.dproj=C:\Users\ProDesk\Documents\Embarcadero\Studio\Projects\Project25.dproj</Transaction>
+    <Transaction>2024/05/04 16:51:28.837,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.DPIAware.pas</Transaction>
+    <Transaction>2024/05/04 16:51:28.884,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Ext.pas</Transaction>
+    <Transaction>2024/05/04 16:51:28.915,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Fixes.pas</Transaction>
+    <Transaction>2024/05/04 16:51:28.978,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.FormStyleHooks.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.025,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Hooks.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.072,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.NC.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.118,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.OwnerDrawFix.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.181,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.ComCtrls.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.243,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Forms.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.275,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Graphics.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.322,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Menus.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.384,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Misc.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.415,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.462,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.ScreenTips.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.525,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.StdCtrls.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.572,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SysControls.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.603,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SysStyleHook.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.666,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SystemMenu.pas</Transaction>
+    <Transaction>2024/05/04 16:51:29.712,=C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.UxTheme.pas</Transaction>
+    <Transaction>2024/05/04 16:52:13.110,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.OwnerDrawFix.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.068,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.DPIAware.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.318,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Ext.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.365,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Fixes.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.396,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.FormStyleHooks.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.443,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Hooks.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.474,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.NC.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.505,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.ComCtrls.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.552,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Forms.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.599,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Graphics.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.630,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Menus.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.662,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.Misc.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.709,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.740,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.ScreenTips.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.787,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.StdCtrls.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.818,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SysControls.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.865,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SysStyleHook.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.896,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.Utils.SystemMenu.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:11.943,C:\Users\ProDesk\Documents\vcl-styles-utils-master\Common\Vcl.Styles.UxTheme.pas=</Transaction>
+    <Transaction>2024/05/04 17:16:27.406,C:\Users\ProDesk\Desktop\Delphi Radio Calculators\VW SKODA RCD310\DumpReader.dproj=C:\Users\ProDesk\Desktop\Delphi Radio Calculators\VW SKODA RCD310\Calculator.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
