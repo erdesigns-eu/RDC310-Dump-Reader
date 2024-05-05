@@ -4,9 +4,9 @@
 // VERSION        : 1.0
 // TARGET         : Embarcadero Delphi 11 or higher
 // AUTHOR         : Ernst Reidinga (ERDesigns)
-// STATUS         : Closed Source - Copyright © Ernst Reidinga
+// STATUS         : Open Source - Copyright © Ernst Reidinga
 // COMPATIBILITY  : Windows 7, 8/8.1, 10, 11
-// RELEASE DATE   : 04/05/2024
+// RELEASE DATE   : 05/05/2024
 //------------------------------------------------------------------------------
 unit Radio.Dump.RCD310;
 
@@ -149,7 +149,7 @@ begin
     // Read Hardware Version
     Result.HW := ReadAnsi(FileStream, 253, 3);
     // Read Serial Number
-    Result.SN := ReadAnsi(FileStream, 215, 13);
+    Result.SN := ReadAnsi(FileStream, 215, 14);
     // Read Type Description until double space
     Result.&Type := ReadAnsiEndsWith(FileStream, 240, '  ');
     // Read Part Number

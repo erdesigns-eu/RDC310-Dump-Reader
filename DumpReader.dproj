@@ -108,7 +108,6 @@
         </DelphiCompile>
         <DCCReference Include="untMain.pas">
             <Form>frmMain</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Radio.Dump.RCD310.pas"/>
         <BuildConfiguration Include="Base">

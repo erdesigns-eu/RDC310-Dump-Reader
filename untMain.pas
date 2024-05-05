@@ -4,9 +4,9 @@
 // VERSION        : 1.0
 // TARGET         : Embarcadero Delphi 11 or higher
 // AUTHOR         : Ernst Reidinga (ERDesigns)
-// STATUS         : Closed Source - Copyright © Ernst Reidinga
+// STATUS         : Open Source - Copyright © Ernst Reidinga
 // COMPATIBILITY  : Windows 7, 8/8.1, 10, 11
-// RELEASE DATE   : 04/05/2024
+// RELEASE DATE   : 05/05/2024
 //------------------------------------------------------------------------------
 unit untMain;
 
@@ -68,19 +68,15 @@ uses Radio.Dump.RCD310;
 // FORM ON CREATE
 //------------------------------------------------------------------------------
 procedure TfrmMain.FormCreate(Sender: TObject);
-const
-  Title: string = 'RCD310 Dump Reader';
 begin
   // Set the caption
-  Caption := Title;
-  // Set the application title
-  Application.Title := Title;
+  Caption := Application.Title;
   // Set the labels captions
   lblSerialNumber.Caption   := 'Serial Number:';
   lblPartNumber.Caption     := 'Part Number:';
   lblType.Caption           := 'Type:';
   lblHardwareNumber.Caption := 'HW Number:';
-  lblSoftwareNumber.Caption := 'SN Number:';
+  lblSoftwareNumber.Caption := 'SW Number:';
   lblRadioCode.Caption      := 'Radio Code:';
   // Set the button captions
   btnOpen.Caption := 'Open..';
@@ -91,11 +87,43 @@ end;
 // OPEN FILE AND READ DUMP
 //------------------------------------------------------------------------------
 procedure TfrmMain.btnOpenClick(Sender: TObject);
+const
+  InvalidDumpSize: string = 'Invalid dump size! This software only works on RСD310 dumps that use eeprom 24С32 memory of 4KB.';
+
+  function CheckDumpSize(const Filename: string): Boolean;
+  var
+    FileStream: TFileStream;
+  begin
+    // Initialize result
+    Result := False;
+    // Create the filestream
+    FileStream := TFileStream.Create(Filename, fmOpenRead or fmShareDenyNone);
+    try
+      // Check if the file size is exactly 4096 bytes
+      Result := FileStream.Size = 4096;
+    finally
+      // Free the filestream
+      FileStream.Free;
+    end;
+  end;
+
 var
   Info: TRadioDumpInfo;
 begin
   if OpenDialog.Execute(Handle) then
   begin
+    // Check the dump size
+    if not CheckDumpSize(OpenDialog.FileName) then
+    begin
+      edtSerialNumber.Text   := '';
+      edtPartNumber.Text     := '';
+      edtType.Text           := '';
+      edtHardwareNumber.Text := '';
+      edtSoftwareNumber.Text := '';
+      edtRadioCode.Text      := '';
+      MessageBox(Handle, PChar(InvalidDumpSize), PChar(Application.Title), MB_ICONWARNING + MB_OK);
+      Exit;
+    end;
     // Read the dump
     Info := ReadRadioDump(OpenDialog.FileName);
     edtSerialNumber.Text   := Info.SN;
