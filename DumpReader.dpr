@@ -3,7 +3,7 @@
 // VERSION        : 1.0
 // AUTHOR         : Ernst Reidinga (ERDesigns)
 // STATUS         : Open Source - Copyright © Ernst Reidinga
-// COMPATIBILITY  : Windows 7, 8/8.1, 10, 11'
+// COMPATIBILITY  : Windows 7, 8/8.1, 10, 11
 // CREATED DATE   : 05/05/2024
 //------------------------------------------------------------------------------
 
